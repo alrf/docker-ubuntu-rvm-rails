@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
       d.remains_running = true
 
       # Use the HostVagrantfile settings to provision
-      d.vagrant_vagrantfile = "HostVagrantfile" 
+      d.vagrant_vagrantfile = "HostVagrantFile"
 
     end
 
